@@ -5,7 +5,7 @@ import maya.app.general.createImageFormats as createImageFormats
 import random
 from functools import partial
 
-
+#github
 #colorInputTarget
 bgobjects=[]
 rendercount = 1
@@ -46,7 +46,7 @@ def UI():
     mc.separator(h=12)   
    #mc.text("Pick target primitive")
     mc.separator(h=6)
-    
+    #commit
     #dropdown for target object
     targetDropdownMenu = mc.optionMenu('targetDropdownMenu',w=280, label = 'Target Primitive Geometry: ', cc = partial(updateTargetPrim))
     
