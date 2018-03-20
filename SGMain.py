@@ -13,6 +13,9 @@ def init():
     Materials()
 
 
+def changeRadiusIntField(*args):
+    UI.targetPrimSize = mc.intField('radiusIntField', query = True, v = True)
+
 def changeRenderpath(*args):
     global renderpath
     renderpath = mc.fileDialog2(fm=3, cap='open')
